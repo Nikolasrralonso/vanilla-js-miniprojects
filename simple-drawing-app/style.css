@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    padding: 1rem;
+}
+
+canvas{
+    background-color:#fff;
+}
+
+label {
+    margin-top: 1rem;
+}
+input {
+    margin-top: 0.5rem;
+}
+
+.wrapper{
+    border:5px solid black;
+    width:max-content;
+}
+
+.header {
+    background-color:#e6d8d8b6;
+    border:5px solid black;
+    text-align: center;
+}
+
+.container {
+    display:flex;
+}
+
+.controls {
+    align-items: center;
+    background-color: #e6d8d8b6;
+    border:5px solid black;
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    max-height:500px;
+    padding: 0 1rem;
+}
+.controls .lineThickness{
+    width:100px;
+}
+
+.canvas-section{
+    border:5px solid black;
+    height:500px;
+    width:500px;
+}

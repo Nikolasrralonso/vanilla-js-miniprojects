@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <header class="header">
+        <h1>Drawing App</h1>
+    </header>
+    <div class="container">
+    <section class="control-section">
+        <form class="controls">
+        <label>Canvas Background</label><input type="color" id="canvasBackground" name="canvasBackground" class="canvasBackground">
+        <label>Color picker</label><input type="color" id="colorPicker" name="colorpicker" class="colorPicker" value="">
+        <label>Thickness</label><input type="range" name="thickness" class="lineThickness" min="1" max="50" value="10" data-sizing="px">
+        <label>Random Line</label> <input type="checkbox" name="weird" class="randomThickness">
+        <label>Squared line</label> <input type="checkbox" name="square" class="squaredLine" checked="yes">
+    </form>
+    </section>
+    <section class="canvas-section">
+        <canvas class="canvas" width="500" height="500"></canvas>
+    </section>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
